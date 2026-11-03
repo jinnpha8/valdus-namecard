@@ -17,3 +17,8 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - No print control; clicking the phone downloads the current member's vCard.
 - Company name, address and registration number belong in the back-face footer.
 - Team order: CEO, COO, CTO, PM, HR. Do not invent missing member details.
+
+- Company details now belong to the website footer outside the card (supersedes earlier back-footer preference).
+- Do not push changes unless the user explicitly requests a push for the current changes.
+
+- Both visible card faces must always have equal width and height at every viewport. Match the taller content face; never clip text to force equality.
