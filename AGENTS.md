@@ -22,3 +22,5 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Do not push changes unless the user explicitly requests a push for the current changes.
 
 - Both visible card faces must always have equal width and height at every viewport. Match the taller content face; never clip text to force equality.
+
+- Living Smoke is the immediate page background; no blocking intro. Keep card content and holographic tilt intact. Use transform/opacity animation, pause when hidden and respect reduced motion. Mobile uses one smoke layer without blur filters.
